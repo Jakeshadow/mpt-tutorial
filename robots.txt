@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mpt-tutorial.com/sitemap.xml
