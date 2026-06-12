@@ -16,6 +16,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MoneyPrinterTurbo Setup Guide — 10-Minute Install v1.1.0">
   <meta name="twitter:description" content="The setup guide the official docs don't give you. Version choice, dependency fixes, VPN strategy.">
+  <meta property="og:image" content="https://mpt-tutorial.com/assets/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="https://mpt-tutorial.com/assets/og-image.svg">
   <link rel="stylesheet" href="/css/style.css">
   <style>
     body { font-family: var(--font-en); }
@@ -59,8 +63,13 @@
   {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    "name": "MoneyPrinterTurbo Setup Guide",
+    "name": "MoneyPrinterTurbo Setup Guide — 10-Minute Install v1.1.0",
     "description": "Complete step-by-step guide to install MoneyPrinterTurbo in 10 minutes on Windows, macOS, or Linux.",
+    "dateModified": "2026-06-12T00:00:00+00:00",
+    "isPartOf": { "@type": "WebSite", "url": "https://mpt-tutorial.com/", "name": "MPT Tutorial" },
+    "sameAs": [
+      "https://github.com/harry0703/MoneyPrinterTurbo"
+    ],
     "step": [
       { "@type": "HowToStep", "name": "Clone the right version", "text": "git clone --branch v1.1.0 --depth 1 https://github.com/harry0703/MoneyPrinterTurbo.git" },
       { "@type": "HowToStep", "name": "Install Python dependencies", "text": "pip install -r requirements.txt. Fix moviepy: pip install moviepy==1.0.3" },
@@ -68,6 +77,28 @@
       { "@type": "HowToStep", "name": "Start the backend", "text": "python main.py (port 8080)" },
       { "@type": "HowToStep", "name": "Start the frontend", "text": "streamlit run webui/Main.py (port 8501)" }
     ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MPT Tutorial",
+    "url": "https://mpt-tutorial.com",
+    "description": "MoneyPrinterTurbo setup guides — 18 verified bug fixes, free AI video generator tutorials",
+    "sameAs": [
+      "https://github.com/harry0703/MoneyPrinterTurbo"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MPT Tutorial",
+    "url": "https://mpt-tutorial.com",
+    "description": "MoneyPrinterTurbo setup, bug fixes, and usage guides. Fix edge-tts 403, g4f, moviepy.",
+    "inLanguage": "en"
   }
   </script>
 </head>
